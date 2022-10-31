@@ -1,10 +1,10 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import "variables.scss";
 @import "positions.scss";
 @import "navbar.scss";
 @import "formcontrol.scss";
-
-$primary: #b8d1f3;
+@import "reboot.scss";
 
 .maxW {
   min-width: 1px;
@@ -15,29 +15,11 @@ $primary: #b8d1f3;
   background-color: $primary;
 }
 
-i {
-  font-size: 1.5rem;
-  color: #000;
-}
-
-.form-control,
-.btn-primary {
-  border-radius: 50px;
-}
-
 .btn-primary {
   width: 100%;
   color: #000;
   background-color: $primary;
   border-color: #000;
-}
-
-a {
-  color: #000;
-
-  &:hover {
-    color: #000;
-  }
 }
 
 // Profile pictures
