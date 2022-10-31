@@ -1,13 +1,23 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "positions.scss";
+@import "navbar.scss";
 
-// scss-docs-start theme-color-variables
 $primary: #b8d1f3;
 $secondary: #7f92ad;
 
-.bcBlue {
+.maxW {
+  min-width: 1px;
+  max-width: 500px;
+}
+
+.bcPrimary {
   background-color: $primary;
+}
+
+i {
+  font-size: 1.5rem;
+  color: #000;
 }
 
 .form-control,
@@ -17,6 +27,7 @@ $secondary: #7f92ad;
 
 .btn-primary {
   width: 100%;
+  color: #000;
   background-color: $secondary;
   border-color: $secondary;
 }
@@ -29,27 +40,11 @@ a {
   }
 }
 
-.maxW {
-  min-width: 1px;
-  max-width: 500px;
-  //   margin: 10px auto;
-}
-
-i {
-  font-size: 1.5rem;
-}
-
 form {
   width: 100%;
 }
 
-// @mixin responsive-pic($imageWidth, $imageHeight) {
-//   background-size: cover;
-//   height: 0;
-//   padding-bottom: percentage($imageWidth / $imageHeight);
-//   display: block;
-// }
-
+// Profile pictures
 .userPic {
   border-radius: 500px;
   background-size: cover;
@@ -67,4 +62,17 @@ form {
   background-image: url("../../assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg");
   width: 100px;
   height: 100px;
+}
+
+.keywords {
+  p {
+    background: $primary;
+    border-radius: 60px;
+  }
+}
+
+.wallPost {
+  background-color: #fff;
+  height: 67px;
+  width: 100%;
 }

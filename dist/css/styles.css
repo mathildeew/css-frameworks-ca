@@ -10773,11 +10773,31 @@ textarea.form-control-lg {
 }
 .fixed-bottom {
   max-width: 500px;
-  margin: 0 auto;
+  width: 10px;
+  left: 49%;
+  transform: translateX(-50%);
 }
 
-.bcBlue {
+i {
+  font-size: 1.5rem;
+  color: #0d6efd;
+}
+i.active {
+  color: #000;
+}
+
+.maxW {
+  min-width: 1px;
+  max-width: 500px;
+}
+
+.bcPrimary {
   background-color: #b8d1f3;
+}
+
+i {
+  font-size: 1.5rem;
+  color: #000;
 }
 
 .form-control,
@@ -10787,6 +10807,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   width: 100%;
+  color: #000;
   background-color: #7f92ad;
   border-color: #7f92ad;
 }
@@ -10796,15 +10817,6 @@ a {
 }
 a:hover {
   color: #000;
-}
-
-.maxW {
-  min-width: 1px;
-  max-width: 500px;
-}
-
-i {
-  font-size: 1.5rem;
 }
 
 form {
@@ -10828,6 +10840,17 @@ form {
   background-image: url("../../assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg");
   width: 100px;
   height: 100px;
+}
+
+.keywords p {
+  background: #b8d1f3;
+  border-radius: 60px;
+}
+
+.wallPost {
+  background-color: #fff;
+  height: 67px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
