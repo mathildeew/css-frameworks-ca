@@ -10794,8 +10794,8 @@ a:hover {
 }
 
 .maxW {
+  min-width: 1px;
   max-width: 500px;
-  margin: 0 auto;
 }
 
 i {
