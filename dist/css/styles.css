@@ -10806,12 +10806,21 @@ form {
   width: 100%;
 }
 
+.userPic {
+  border-radius: 100%;
+  background-size: cover;
+}
+
 .profilePic {
   background-image: url("../../assets/images/dmitry-ratushny-T8gLom6k8Jo-unsplash.jpg");
   width: 120px;
   height: 120px;
-  border-radius: 100%;
-  background-size: cover;
+}
+
+.friendPic {
+  background-image: url("../../assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg");
+  width: 100px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
