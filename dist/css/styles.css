@@ -10771,6 +10771,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.fixed-bottom {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .bcBlue {
   background-color: #b8d1f3;
 }
