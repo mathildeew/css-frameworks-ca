@@ -2,9 +2,9 @@
 
 @import "positions.scss";
 @import "navbar.scss";
+@import "formcontrol.scss";
 
 $primary: #b8d1f3;
-$secondary: #7f92ad;
 
 .maxW {
   min-width: 1px;
@@ -28,8 +28,8 @@ i {
 .btn-primary {
   width: 100%;
   color: #000;
-  background-color: $secondary;
-  border-color: $secondary;
+  background-color: $primary;
+  border-color: #000;
 }
 
 a {
@@ -38,10 +38,6 @@ a {
   &:hover {
     color: #000;
   }
-}
-
-form {
-  width: 100%;
 }
 
 // Profile pictures

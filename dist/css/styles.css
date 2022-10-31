@@ -10774,8 +10774,12 @@ textarea.form-control-lg {
 .fixed-bottom {
   max-width: 500px;
   width: 10px;
-  left: 49%;
+  left: 50%;
   transform: translateX(-50%);
+}
+
+.navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .container-xxl {
+  max-width: 800px;
 }
 
 i {
@@ -10784,6 +10788,18 @@ i {
 }
 i.active {
   color: #000;
+}
+
+#search {
+  height: 30px;
+}
+
+.form-control::placeholder {
+  text-align: center;
+}
+.form-control:focus {
+  text-align: center;
+  border-color: #000;
 }
 
 .maxW {
@@ -10808,8 +10824,8 @@ i {
 .btn-primary {
   width: 100%;
   color: #000;
-  background-color: #7f92ad;
-  border-color: #7f92ad;
+  background-color: #b8d1f3;
+  border-color: #000;
 }
 
 a {
@@ -10817,10 +10833,6 @@ a {
 }
 a:hover {
   color: #000;
-}
-
-form {
-  width: 100%;
 }
 
 .userPic {

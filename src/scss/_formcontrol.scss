@@ -1,0 +1,13 @@
+#search {
+  height: 30px;
+}
+
+.form-control {
+  &::placeholder {
+    text-align: center;
+  }
+  &:focus {
+    text-align: center;
+    border-color: #000;
+  }
+}
