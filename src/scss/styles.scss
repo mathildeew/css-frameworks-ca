@@ -29,8 +29,13 @@ a {
 
 .maxW {
   max-width: 500px;
+  margin: 0 auto;
 }
 
 i {
   font-size: 1.5rem;
+}
+
+form {
+  width: 100%;
 }

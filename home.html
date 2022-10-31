@@ -12,7 +12,7 @@
     <title>Pattern | Home</title>
   </head>
   <body>
-    <nav class="navbar mb-5 bcBlue">
+    <nav class="navbar mb-2 bcBlue">
       <div class="container-fluid maxW">
         <a class="navbar-brand" href="home.html">pattern</a>
         <div class="navbar-nav d-flex flex-row">
@@ -29,7 +29,19 @@
       </div>
     </nav>
 
-    <main></main>
+    <main class="d-flex mx-1 maxW">
+      <form>
+        <div class="mb-3">
+          <label for="postToWall" class="form-label"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="postToWall"
+            placeholder="Share shomething with the world👋"
+          />
+        </div>
+      </form>
+    </main>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
