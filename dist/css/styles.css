@@ -10807,14 +10807,16 @@ form {
 }
 
 .userPic {
-  border-radius: 100%;
+  border-radius: 500px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .profilePic {
   background-image: url("../../assets/images/dmitry-ratushny-T8gLom6k8Jo-unsplash.jpg");
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
 }
 
 .friendPic {
