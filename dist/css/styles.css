@@ -10771,5 +10771,26 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.bcBlue {
+  background-color: #b8d1f3;
+}
+
+.form-control,
+.btn-primary {
+  border-radius: 50px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #7f92ad;
+  border-color: #7f92ad;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
 
 /*# sourceMappingURL=styles.css.map */

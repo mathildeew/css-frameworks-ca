@@ -1,1 +1,28 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// scss-docs-start theme-color-variables
+$primary: #b8d1f3;
+$secondary: #7f92ad;
+
+.bcBlue {
+  background-color: $primary;
+}
+
+.form-control,
+.btn-primary {
+  border-radius: 50px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: $secondary;
+  border-color: $secondary;
+}
+
+a {
+  color: #000;
+
+  &:hover {
+    color: #000;
+  }
+}
