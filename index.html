@@ -8,8 +8,8 @@
     <title>Pattern | Log in</title>
   </head>
   <body>
-    <main>
-      <h1>pattern</h1>
+    <main class="d-flex flex-column align-items-center">
+      <h1 class="my-5">pattern</h1>
       <form action="profile.html">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"></label>
@@ -31,11 +31,15 @@
           />
         </div>
 
-        <button type="submit" class="btn btn-primary">Log in</button>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary mb-5 px-5">
+            Log in
+          </button>
+        </div>
       </form>
       <div>
-        <p>Want to join?</p>
-        <a href="">Register here</a>
+        <p class="d-inline">Want to join?</p>
+        <a class="d-inline" href="">Register here</a>
       </div>
     </main>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
