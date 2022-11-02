@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="dist/css/styles.css" />
     <title>Pattern | Log in</title>
   </head>
-  <body class="">
-    <main class="maxW mx-auto text-center">
-      <section class="mx-1">
-        <h1 class="my-5">pattern</h1>
+  <body class="bg-primary">
+    <main class="mx-auto text-center" style="max-width: 500px">
+      <section class="mx-1 mt-5">
+        <h1 class="">pattern</h1>
         <form action="profile.html">
           <div class="mb-0">
             <label for="exampleInputEmail1" class="form-label"></label>
             <input
               type="email"
-              class="form-control"
+              class="form-control rounded-pill"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="example@email.com"
@@ -26,21 +26,25 @@
             <label for="exampleInputPassword1" class="form-label"></label>
             <input
               type="password"
-              class="form-control"
+              class="form-control rounded-pill"
               id="exampleInputPassword1"
               placeholder="Password"
             />
           </div>
 
           <div class="text-center">
-            <button type="submit" class="btn btn-primary mb-5 px-5">
+            <button
+              type="submit"
+              class="btn btn-primary mb-5 px-5 rounded-pill bg-secondary"
+              style="width: 100%"
+            >
               Log in
             </button>
           </div>
         </form>
         <div>
           <p class="d-inline">Want to join?</p>
-          <a class="d-inline" href="">Register here</a>
+          <a class="d-inline link-dark" href="">Register here</a>
         </div>
       </section>
     </main>
