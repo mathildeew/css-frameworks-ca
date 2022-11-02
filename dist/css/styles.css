@@ -10780,6 +10780,10 @@ h1, .h1 {
   font-family: maple-web, serif;
 }
 
+label {
+  display: none;
+}
+
 i {
   font-size: 1.5rem;
   color: #000;
@@ -10787,6 +10791,16 @@ i {
 
 .form-control:focus {
   border: 2px solid #507bb7;
+}
+
+.wallPost {
+  background-color: #fff;
+  height: 60px;
+}
+
+.fixed-bottom {
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*# sourceMappingURL=styles.css.map */
