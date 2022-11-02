@@ -32,13 +32,10 @@ i {
   }
 }
 
-// Profile pictures
-// .profilePic {
-//   max-width: 200px;
-// }
-
-section {
-  // border: 2px solid red;
+// Fixed bottom post to wall
+.fixed-bottom {
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .wallPost {
@@ -46,7 +43,7 @@ section {
   height: 60px;
 }
 
-.fixed-bottom {
-  left: 50%;
-  transform: translateX(-50%);
+.postImg {
+  width: 50px;
+  height: 50px;
 }
