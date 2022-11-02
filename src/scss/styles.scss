@@ -11,6 +11,12 @@ h1 {
   font-family: maple-web, serif;
 }
 
+// Navbar
+i {
+  font-size: 1.5rem;
+  color: #000;
+}
+
 // Customized from Bootstrap formcontrol
 .form-control {
   &:focus {
@@ -18,35 +24,13 @@ h1 {
   }
 }
 
-// // Profile pictures
-// .userPic {
-//   border-radius: 500px;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center center;
-// }
+// Profile pictures
 
-// .profilePic {
-//   background-image: url("../../assets/images/dmitry-ratushny-T8gLom6k8Jo-unsplash.jpg");
-//   width: 130px;
-//   height: 130px;
-// }
+.profilePic {
+  width: 150px;
+  height: 150px;
+}
 
-// .friendPic {
-//   background-image: url("../../assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg");
-//   width: 100px;
-//   height: 100px;
-// }
-
-// .keywords {
-//   p {
-//     background: $primary;
-//     border-radius: 60px;
-//   }
-// }
-
-// .wallPost {
-//   background-color: #fff;
-//   height: 67px;
-//   width: 100%;
-// }
+section {
+  border: 2px solid red;
+}
