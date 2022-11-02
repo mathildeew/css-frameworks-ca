@@ -10772,6 +10772,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.row {
+  margin: 0;
+}
+
 h1, .h1 {
   font-family: maple-web, serif;
 }

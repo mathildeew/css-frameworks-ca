@@ -39,54 +39,89 @@
     </nav>
 
     <main class="mx-auto d-flex flex-column" style="max-width: 600px">
-      <section class="d-flex justify-content-evenly align-items-center mb-1 mx-1" style="max-height: 200px">
-        <img 
-        src="assets/images/dmitry-ratushny-T8gLom6k8Jo-unsplash.jpg" 
-        alt="@usernames profile picture"
-        class="rounded-pill profilePic img-fluid"
-        >
+      <section
+        class="d-flex justify-content-evenly align-items-center mb-1 mx-1"
+        style="max-height: 200px"
+      >
+        <img
+          src="assets/images/dmitry-ratushny-T8gLom6k8Jo-unsplash.jpg"
+          alt="@usernames profile picture"
+          class="rounded-pill profilePic img-fluid"
+        />
         <div>
           <h2>@username</h2>
           <h5>Name Lastname</h5>
         </div>
       </section>
 
-      
-
-       <section class="mx-1 mb-5">
+      <section class="mx-1 mb-2">
         <h3>About</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div class="keywords">
-            <p class="bc-primary">Keyword</p>
-            <p>Hiking</p>
-            <p>Music</p>
-            <p>Writing</p>
-            <p>Cross-country skiing</p>
-            <p>Keywordword</p>
+          <div class="row text-center">
+            <p class="col bg-primary rounded-pill p-1 me-2">Keyword</p>
+            <p class="col bg-primary rounded-pill p-1 me-2">Hiking</p>
+            <p class="col bg-primary rounded-pill p-1 me-2">Music</p>
+            <p class="col bg-primary rounded-pill p-1 me-2">Writing</p>
+            <p class="col bg-primary rounded-pill p-1 me-2">Skiing</p>
+            <p class="col bg-primary rounded-pill p-1 me-2">Photo</p>
+          </div>
         </div>
+      </section>
+
+      <section class="mx-1 mb-2">
+        <h3>Friends</h3>
+        <div class="row row-cols-3 text-center mb-3">
+          <div class="col">
+            <img
+              src="assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg"
+              alt="@usernames profilepicture"
+              class="friendPic rounded-pill img-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg"
+              alt="@usernames profilepicture"
+              class="friendPic rounded-pill img-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg"
+              alt="@usernames profilepicture"
+              class="friendPic rounded-pill img-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg"
+              alt="@usernames profilepicture"
+              class="friendPic rounded-pill img-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg"
+              alt="@usernames profilepicture"
+              class="friendPic rounded-pill img-fluid"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="assets/images/anthony-fomin-oHCBHRuzOyA-unsplash.jpg"
+              alt="@usernames profilepicture"
+              class="friendPic rounded-pill img-fluid"
+            />
+          </div>
+        </div>
+        <a href="">View all</a>
       </section>
 
       <!--
-
-      <section class="friends mb-5 mx-2">
-        <h3>Friends</h3>
-        <div class="container mb-3 text-center">
-          <div class="row justify-content-between mb-2">
-            <div class="friendPic userPic"></div>
-            <div class="friendPic userPic"></div>
-            <div class="friendPic userPic"></div>
-          </div>
-          <div class="row justify-content-between mb-2">
-            <div class="friendPic userPic"></div>
-            <div class="friendPic userPic"></div>
-            <div class="friendPic userPic"></div>
-          </div>
-          <a href="">View all</a>
-        </div>
-      </section>
 
       <section class="posts mb-5 mx-2">
         <h3>Posts</h3>
@@ -124,7 +159,7 @@
           </div>
         </div>
       </section>
-    </main>
+    
     <section class="wallPost fixed-bottom">
       <form class="">
         <label for="postToWall" class="form-label"></label>
@@ -136,7 +171,7 @@
         />
       </form>
     </section> -->
-
+    </main>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

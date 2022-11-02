@@ -7,6 +7,10 @@
 // Fonts
 @import url("https://use.typekit.net/gpj3tvv.css");
 
+.row {
+  margin: 0;
+}
+
 h1 {
   font-family: maple-web, serif;
 }
@@ -25,7 +29,6 @@ i {
 }
 
 // Profile pictures
-
 .profilePic {
   width: 150px;
   height: 150px;
