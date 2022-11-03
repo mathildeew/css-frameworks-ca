@@ -10793,11 +10793,6 @@ i {
   border: 2px solid #507bb7;
 }
 
-.fixed-bottom {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .wallPost {
   background-color: #fff;
   height: 60px;
