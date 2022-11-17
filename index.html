@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/styles.css" />
+    <title>Pattern | Log in</title>
+  </head>
+
+  <body class="bg-primary">
+    <main class="mx-auto text-center maxW">
+      <h1 class="mt-5">pattern</h1>
+
+      <!-- Log in form -->
+      <section class="mx-1 mt-5">
+        <form action="profile.html">
+          <div class="mb-2">
+            <input
+              type="email"
+              pattern="[^ @]*@[^ @]*"
+              class="form-control rounded-pill"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="example@email.com"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="password"
+              required
+              minlength="3"
+              class="form-control rounded-pill"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+
+          <div class="text-center">
+            <button
+              type="submit"
+              class="btn btn-primary mb-5 px-5 rounded-pill bg-secondary fw-bolder"
+              style="width: 100%"
+            >
+              Log in
+            </button>
+          </div>
+        </form>
+
+        <!-- Want to join  -->
+        <div>
+          <p class="d-inline">Want to join?</p>
+          <a class="d-inline link-dark" href="">Register here</a>
+        </div>
+      </section>
+    </main>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
